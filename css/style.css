@@ -1,0 +1,300 @@
+/*Font integration start*/
+@font-face{
+	font-family:playfair-display;
+	src: url(../fonts/playfair-display/PlayfairDisplayRegular.otf);
+}
+@font-face{
+	font-family:ubuntu;
+	src: url(../fonts/ubuntu/UbuntuLI.ttf);
+}
+/*Font integration*/
+/*Common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'playfair-display' serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 20px 0;
+	/*border: 1px solid black;*/
+
+}
+.container-1{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid black;*/
+
+}
+.logo{
+	margin-top: 10px;
+	width: 12%;
+	/*border: 1px solid black;*/
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+
+}
+.menu {
+	width: 67%;
+/*	border: 1px solid black;*/
+	float: right;
+
+}
+.menu ul {
+	
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	
+}
+.menu ul li a {
+	margin: 0 40px;
+	padding: 4px 1px 2px;
+	color: #626262;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: .3s;
+	
+}
+.menu ul li: last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	font-weight: 400;
+	color: #000000;
+	border-bottom: 2px solid black;
+	
+}
+
+/*header end*/
+/*banner 1 start*/
+.banner{
+
+}
+.banner img{
+	width: 100%;
+
+}
+
+/*bannner 1 end*/
+/*banner 2 start*/
+.banner-2{
+	padding-top: 100px ;
+	padding-bottom: 100px;
+	/*border: 1px solid red;*/
+
+}
+.container-2{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 80%;
+	/*border: 1px solid red;*/
+
+
+}
+.p-content{
+
+}
+.u-light{
+	margin: 0;
+	font-family:'ubuntu' serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+}
+.pfair{
+	    font-size: 30px;
+	    font-weight: 400;
+
+}
+.c_text{
+	margin: 0;
+	line-height: 22px;
+
+}
+.mb_40{
+	margin-bottom: 40px;
+}
+/*bannner 2  end*/
+/*blog 1 start*/
+.blog-1{
+		padding-top: 40px ;
+	padding-bottom: 100px;
+}
+.blog-content{
+
+}
+.single{
+	margin-top: 35px;
+	width: 47%;
+	/*border: 1px solid yellowgreen;*/
+	float: left;
+
+}
+.single:nth-child(even){
+	margin-left: 5%;
+
+}
+.s-img{
+	margin-bottom: 20px;
+}
+.s-img img{
+	width: 100%;
+
+}
+/*blog 1 end*/
+/*newsletter start*/
+.newsletter{
+	padding: 70px 0;
+	background-color: #f0f0f0;
+}
+.news{
+	text-align: center;
+
+}
+.n_h1{
+	margin-top: 0;
+	margin-bottom: 70px;
+
+	color: #333333;
+	
+
+}
+.nform{
+	position: relative;
+	margin: 0 auto;
+	width: 320px;
+}
+.nform input{
+	padding-left: 5px;
+	padding-right:45px;
+	width: 290px;
+	height: 45px;
+	font-family:'playfair-display' serif;
+	font-size: 16px;
+	color: #333333;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background: transparent;
+
+}
+.nform input:focus{
+	outline: 0;
+
+}
+.nform button{
+	position: absolute;
+
+	top: 17px;
+	right: 0;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+
+}
+.nform button:focus{
+	outline: 0;
+
+}
+.form button img{
+
+}
+
+/*newsletter end*/
+/*blog 2 start*/
+
+/*blog 2 end*/
+/*Load button start*/
+.load{
+	margin: 100px;
+	text-align: center;
+}
+.btn{
+	width: 150px;
+	height: 50px;
+	font-family: 'playfair-display' serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid black;
+    transition: .3s;
+
+}
+.btn:hover{
+	background-color: #626262;
+	color: white;
+}
+/*load button end*/
+
+/*Footer start*/
+footer{
+	background-color: #f0f0f0;
+	/*border: 1px solid gray;*/
+
+}
+.terms{
+	margin: 30px 0 0;
+	width: 40%;
+/*	border: 3px solid greenyellow;*/
+	float: left;
+
+}
+.terms ul{
+	float: left;
+
+}
+.terms ul li{
+	list-style: none;
+	float: left;
+
+}
+.terms ul li a{
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #626262;
+
+}
+.social{
+	margin: 10px;
+	width: 50%;
+	/*border: 2px solid darkgrey;*/
+	float: right;
+
+}
+.social ul{
+	float: right;
+
+}
+.social ul li{
+	margin: 10px;
+	list-style: none;
+	float: left;
+
+
+}
+.social ul li a{
+	padding: 6px;
+	display: inline-block;
+	text-decoration: none;
+	color: #626262;
+
+}
+
+/*footer end*/
